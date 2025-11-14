@@ -1,0 +1,78 @@
+- PT-BR -
+Execute o YVD.exe
+
+Em seguida aguarde ate que o terminal responda com "Cole o link do YouTube e pressione Enter: "
+
+Assim escrito coloque o link do video que voce queira baixar ao lado desta mensagem e pressione Enter.
+
+Aguarde ate o download e envio para a pasta download ser concluido
+
+Quando terminar pode fechar o terminal
+
+Seu video estará baixado 100% e com a maior qualidade possível :) (1080p)
+
+
+
+ATENÇÃO:
+É necessário baixar a biblioteca chocolatey, ffmpeg e yt-dlp para funcionamento do script..
+
+Como baixar Chocolatey:
+abra o powershell como administrador e digite o comando: Get-ExecutionPolicy
+Caso retorne "Restricted" digite o seguinte comando: Set-ExecutionPolicy AllSigned
+Irá aparecer varias opções para digitar, digite Y e pressione Enter, Ao fazer isto o powershell agora permitirá que voce baixe bibliotecas de outras fontes.
+
+Execute o comando: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+E aguarde o download terminar..
+
+
+Após isto. Para baixar o ffmpeg digite o comando: choco install ffmpeg
+Aguarde o download completar..
+
+
+Após isto. Para baixar o yt-dlp digite o comando: choco install yt-dlp
+Aguarde o download completar..
+
+Pronto, agora esta tudo certo!
+
+
+(Caso ainda continue dando erro, tente baixar o python 3.11 no site oficial do mesmo na internet)
+
+
+- ENG -
+Run YVD.exe.
+
+Then wait until the terminal responds with “Paste the YouTube link and press Enter:”.
+
+Once this message appears, paste the link of the video you want to download next to this message and press Enter.
+
+Wait until the download and transfer to the download folder is complete.
+
+When finished, you can close the terminal.
+
+Your video will be 100% downloaded and in the highest possible quality :) (1080p)
+
+
+
+ATTENTION:
+You must download the Chocolatey, ffmpeg, and yt-dlp libraries for the script to work.
+
+How to download Chocolatey:
+Open PowerShell as an administrator and enter the command: Get-ExecutionPolicy
+If it returns “Restricted,” enter the following command: Set-ExecutionPolicy AllSigned
+Several options will appear. Enter Y and press Enter. PowerShell will now allow you to download libraries from other sources.
+
+Run the command: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(‘https://community.chocolatey.org/install.ps1’))
+And wait for the download to finish.
+
+
+After that, to download ffmpeg, type the command: choco install ffmpeg
+Wait for the download to complete.
+
+
+After that, to download yt-dlp, type the command: choco install yt-dlp
+Wait for the download to complete.
+
+That's it, now everything is fine!
+
+
+(If you still get an error, try downloading Python 3.11 from its official website).
